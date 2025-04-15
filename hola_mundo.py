@@ -1,0 +1,1 @@
+print('Hola, mundo. estoy aprendiendo python con ChatGPT.')

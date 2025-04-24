@@ -18,4 +18,4 @@ print(f"{c} C a F: {resultado:.2f}")
 f = float(input(f"Proporcione su valor en fahrenheit: "))
 resultado = fahrenheit_a_celsius(f)
 # Imprimimos el resultado
-print(f'{f} F a C: {resultado:0.2f}')
+print(f'{f} F a C: {resultado:0.2F}')

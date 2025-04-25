@@ -48,6 +48,11 @@ if __name__ == '__main__':
     carro1.inicializar_carro('Mazda', 2017, 'Rojo', 4, 5)
     carro1.mostrar_carro()
 
+    # Creamos un seg8undoi objeto
+    carro2 = Carro() 
+    carro2.inicializar_carro('Audi', 2020, 'Negro', 4, 2)
+    carro2.mostrar_carro()
+
 
 
 class Computador():
@@ -72,6 +77,11 @@ class Computador():
 if __name__ == '__main__':
     pc_gamer = Computador()
     pc_gamer.componentes_pc('MSI 450A PRO', 'RADEOM 3040', '650-W REAL', 'DDR4', 'RAIZEN 5 - 5600', 'ZATA-500GB' )
+    pc_gamer.mostrar_pc()
+
+    # Creacion de un segundo objeto
+    pc_gamer = Computador()
+    pc_gamer.componentes_pc('')
     pc_gamer.mostrar_pc()
 
             

@@ -42,11 +42,11 @@ class Carro:
         Ruedas: {self.ruedas}
         Puertas: {self.puertas}      
         ''')
-
+# Creacion de objetos
 if __name__ == '__main__':
-    carro1 = Carro() 
-    carro1.inicializar_carro('Mazda', 2017, 'Rojo', 4, 5)
-    carro1.mostrar_carro()
+    carro1 = Carro() # Creamos un objeto vacio en memori
+    carro1.inicializar_carro('Mazda', 2017, 'Rojo', 4, 5) # Crear un objeto vacio en memoria
+    carro1.mostrar_carro() # 
 
     # Creamos un seg8undoi objeto
     carro2 = Carro() 
@@ -56,7 +56,7 @@ if __name__ == '__main__':
 
 
 class Computador():
-    # Definimos nuestra clse
+    # Definimos nuestra clase
     def componentes_pc(self, boar, tarjeta_de_video, fuente_de_poder, ram, procesador, ssd):
         self.boar = boar
         self.tarjeta_de_video = tarjeta_de_video
@@ -73,10 +73,10 @@ class Computador():
         Ram: {self.ram}
         Procesador: {self.procesador}
         SSD: {self.ssd}''')
-
+# Creacion de objetos
 if __name__ == '__main__':
-    pc_gamer = Computador()
-    pc_gamer.componentes_pc('MSI 450A PRO', 'RADEOM 3040', '650-W REAL', 'DDR4', 'RAIZEN 5 - 5600', 'ZATA-500GB' )
+    pc_gamer = Computador() # Creamos un objeto vacio en memori
+    pc_gamer.componentes_pc('MSI 450A PRO', 'RADEOM 3040', '650-W REAL', 'DDR4', 'RAIZEN 5 - 5600', 'ZATA-500GB' ) # Crear un objeto vacio en memoria
     pc_gamer.mostrar_pc()
 
     # Creacion de un segundo objeto

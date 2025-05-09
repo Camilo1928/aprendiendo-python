@@ -9,8 +9,12 @@ class Animal:
         print("Duermo muchas horas")
 
 class Perro(Animal):
+    
     def hacer_sonido(self):
         print("Puedo ladrar")
+
+    def dormir(self):
+        print("Duermo 15 horas al dia")
 
 # Programa principal
 print("*** Ejemplo de Herencia en python ***")
@@ -31,7 +35,7 @@ print("\n*** Ejercicio de Herencias***")
 
 
 class Empresa:
-
+    
     def trabajar(self):
         print("Entrada a las 6:00 am todos los dias")
 
@@ -45,7 +49,7 @@ class Empresa:
         print("cargue de camiones")
 
 class Empleado:
-        
+
     def auxiliar(self):
         print("Recibir tuberia y clasificarla")
 
